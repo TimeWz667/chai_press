@@ -1,10 +1,7 @@
-#!/usr/bin/env sh
 
-# abort on errors
+vuepress build docs
 
-npm run build
-
-cd src/.vuepress/dist
+cd docs/.vuepress/dist
 
 git init
 git add -A
@@ -12,4 +9,4 @@ git commit -m 'deploy'
 
 git push -f git@github.com:TimeWz667/chai_press.git master:gh-pages
 
-cd ../
+cd ../../../

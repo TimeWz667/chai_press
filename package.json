@@ -1,3 +1,24 @@
 {
-  "dependencies": {}
+  "name": "chai_press",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Chu-Chang Ku",
+    "email": "cku@ic.ac.uk"
+  },
+  "repository": "TimeWz667/chai_press",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "Mozilla Public License Version 2.0",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0"
+  }
 }
