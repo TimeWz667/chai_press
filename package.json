@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
+    "bootstrap-vue": "^2.21.2",
+    "lodash": "^4.17.21",
     "node-sass": "^6.0.1",
     "sass-loader": "^12.1.0"
   }
